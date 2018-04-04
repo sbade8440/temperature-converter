@@ -17,12 +17,14 @@ public class ConversionStepDefs {
 
     @When("^I input the value of Fahrenheit as (\\d+).(\\d+) in text field$")
     public void I_input_the_value_of_Fahrenheit_as_in_text_field(int arg1, int arg2) throws Throwable {
+        //input Fahrenheit value
         // Express the Regexp above with the code you wish you had
         throw new PendingException();
     }
 
     @Then("^It should be converted to Celsius as (\\d+) degree$")
     public void It_should_be_converted_to_Celsius_as_degree(int arg1) throws Throwable {
+        //assertion
         // Express the Regexp above with the code you wish you had
         throw new PendingException();
     }
